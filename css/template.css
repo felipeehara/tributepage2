@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/possiveltom2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cabeca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-size:  30px;
+    color: #878883;
+}
+.subheader {
+    font-size: 30px;
+    width: 100%;
+    color: #878883;
+    margin-left: 600px;
+}
+article .container img{
+    max-width:300px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+nav {
+    display: block;
+}
+.menu nav .menuprincipal ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu nav .menuprincipal li {
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menuprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000097;
+    margin-top: 0;
+}
+.menu nav .menuprincipal a {
+    text-decoration: none;
+    padding: 5px;
+    background-clip: text;
+    color:yellow;
+}
+.menuprincipal a:hover {
+    background-color: #42b3e5;
+    color: #FFF;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px ;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+article {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #00000092;
+    display: block;
+}
+section {
+    display: block;
+}
+.biografiahome {
+    background-color: transparent;
+    padding-left: 15px;
+    border-right: 20px solid #0000;
+    border-radius: 0px 40px 40px 10px;
+    display: flex;
+}
+div {
+    display: block;
+}
+.biografiatextohome {
+    color: #abb;
+    margin-bottom: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+.linkbiografiajanet {
+    text-decoration: none;
+    color: #abb;
+}
+.filmes {
+    margin-bottom: 40px;
+}
+.filmes a {
+    text-decoration: none;
+}
+.titulosection {
+    background-color: transparent;
+}
+.melhoresfilmes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.filmesinopse {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: transparent;
+    border-bottom: 1px solid #373737;
+}
+.imgmelhores {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+.filmesinopse img {
+    max-width: 170px;
+    margin: 15px;
+}
+.sinopse {
+    color: #b8b8b8;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin: 15px;
+}
+article h2 {
+    font-family: caviar;
+    border-bottom: 1px solid #3737378c;
+    padding: 15px;
+    background-image: linear-gradient(to right,#d68800, #daa520, #ffbf00, #ecb100);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.galeria a {
+    text-decoration: none;
+}
+.titulosection {
+    background-color: #0000009d;
+}
+.mural {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background-color: #0000009d;
+}
+article .mural .fotos img {
+    height: 278px;
+    width: 202px;
+    border: 5px solid #a0a0a087;
+    border-radius: 5px;
+    object-fit:cover;
+    object-position:center;
+}
+div .home {
+    display: flex;
+    flex-direction: column;
+    overflow:hidden
+}
+.video {
+    margin: 20px 0px 20px 0px;
+    padding: 40px;
+    padding-bottom: 43%;
+    position: relative;
+}
+.video iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    background-color: #00000097;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.copy {
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #daa520;
+    font-size: 30px;
+    padding: 15px;
+    justify-content: center;
+}
+.redes {
+    display: flex;
+    border-left: 1px solid #a9a9a979;
+    padding: 10px;
+    justify-content: center;
+}
+.redes img {
+    width: 35px;
+    margin: 5px;
+}
+.redes div {
+    width: 45px;
+    height: 45px;
+}
+@media (max-width: 600px) {
+    .imgmelhores {
+        display: flex;
+        flex-direction: column;
+    }
+    .sinopse {
+    max-width: 93%;
+}
+    h1 {
+        font-size: 20px;
+    }
+    .subheader{
+        font-size: 15px;
+        margin-left: 200px;
+    }
+    
+}

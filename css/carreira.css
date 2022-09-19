@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/possiveltom2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cabeca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-size:  30px;
+    color: #878883;
+}
+.subheader {
+    font-size: 30px;
+    width: 100%;
+    color: #878883;
+    margin-left: 600px;
+}
+article .container img{
+    max-width:300px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+nav {
+    display: block;
+}
+.menu nav .menuprincipal ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu nav .menuprincipal li {
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menuprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000097;
+    margin-top: 0;
+}
+.menu nav .menuprincipal a {
+    text-decoration: none;
+    padding: 5px;
+    background-clip: text;
+    color:yellow;
+}
+.menuprincipal a:hover {
+    background-color: #42b3e5;
+    color: #FFF;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px ;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+article {
+    min-height: 100vh;
+    padding-right: 500px;
+    padding-left: 550px;
+    background-color: #00000092;
+    display: block;
+}
+section {
+    display: block;
+}
+.biografiahome {
+    background-color: transparent;
+    padding: 15px;
+    border-right: 20px solid #0000;
+    border-radius: 0px 40px 40px 10px;
+    display: flex;
+}
+div {
+    display: block;
+}
+.biografiatextohome {
+    color: #abb;
+    margin-bottom: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+footer {
+    background-color: #00000097;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.copy {
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #daa520;
+    font-size: 30px;
+    padding: 15px;
+    justify-content: center;
+}
+.redes {
+    display: flex;
+    border-left: 1px solid #a9a9a979;
+    padding: 10px;
+    justify-content: center;
+}
+.redes img {
+    width: 35px;
+    margin: 5px;
+}
+.redes div {
+    width: 45px;
+    height: 45px;
+}
